@@ -10,7 +10,7 @@
 
 ***
 
-## Title of Game here
+## RUN FOR IT - by AEI-R
 A SUPER exciting and funny game with a beautiful scenery. Enjoy the sunrise and the sunset while running away from cute bunnies that will hurt you or ghosts that will haunt you! 
 ##### Go to on top of the waterfall and see something very suprising, you will be shocked! Plus you can enjoy the stroll up the mountain. You will look back in awe.
 
@@ -25,6 +25,7 @@ You must not come near the monsters or your health will decrease!
 #### Instructions
 
 1. Press space to jump
-2. WASD buttons to move
+2. WASD or arrows buttons to move
 3. Use mouse to look around
 4. Press ESC to pause
+5. Shift to run
