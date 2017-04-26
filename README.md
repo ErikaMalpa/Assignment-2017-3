@@ -15,7 +15,7 @@ A SUPER exciting and funny game with a beautiful scenery. Enjoy the sunrise and 
 ##### Go to on top of the waterfall and see something very suprising, you will be shocked! Plus you can enjoy the stroll up the mountain. You will look back in awe.
 
 ### The YouTube Video
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/https://www.youtube.com/watch?v=8aPPSAqBfv8/0.jpg)](https://www.youtube.com/watch?v=8aPPSAqBfv8)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/https://www.youtube.com/watch?v=umcwWIA7zo0&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=umcwWIA7zo0&feature=youtu.be)
 
 #### Rules
 The rules of the game is very simple, you just need to survive the game as long as you can to get points. 
