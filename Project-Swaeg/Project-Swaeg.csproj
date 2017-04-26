@@ -86,7 +86,9 @@
   <ItemGroup>
     <Compile Include="Assets\BatSpawner.cs" />
     <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
+    <Compile Include="Assets\Script.cs" />
     <Compile Include="Assets\Script\AnimatorController.cs" />
+    <Compile Include="Assets\Script\Background Music.cs" />
     <Compile Include="Assets\Script\Bats.cs" />
     <Compile Include="Assets\Script\Damage.cs" />
     <Compile Include="Assets\Script\Damage2.cs" />
