@@ -2,21 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageMaster : MonoBehaviour {
+public class DamageMaster : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public bool isDamaging;
+    public float damage = 50;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider col)
     {
-        PlayerManager.health -= 40;
-        Destroy(this.gameObject);
+        if (col.tag == "Player")
+        {
+            col.SendMessage((isDamaging) ? "TakeDamage" : "HealDamage", Time.deltaTime * damage);
+            Destroy(this.gameObject);
+        }
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

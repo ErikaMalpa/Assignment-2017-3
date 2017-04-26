@@ -5,25 +5,40 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
 
-    public static int health = 100;
+ 
     public GameObject player;
-    public Slider healthBar;
+    public Image currentHealthbar;
+    public Text ratioText;
+
+    private float hitpoint = 150;
+    private float maxHitpoint = 150;
+ 
 
     // Use this for initialization
-    void Start () {
+    private void Start () {
 
-        InvokeRepeating("ReduceHealth", 1, 1);
-        
+      
     }
 
-    public void ReduceHealth()
+    private void UpdateHealthBar()
     {
-        healthBar.value = health;
+        float ratio = hitpoint / maxHitpoint;
+        currentHealthbar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        ratioText.text = (ratio * 100).ToString("") + '%';
+
     }
 
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
+   private void TakeDamage(float damage)
+    {
+        hitpoint -= damage;
+        if(hitpoint < 0 )
+        {
+            hitpoint = 0;
+            Debug.Log("Dead!");
+
+        }
+
+        UpdateHealthBar();
+    }
 }
