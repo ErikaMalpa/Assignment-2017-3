@@ -6,7 +6,7 @@ public class Damage2 : MonoBehaviour
 {
 
     public bool isDamaging;
-    public float damage = 15;
+    public float damage = 150;
 
     void OnTriggerStay(Collider col)
     {

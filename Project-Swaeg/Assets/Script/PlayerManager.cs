@@ -24,7 +24,7 @@ public class PlayerManager : MonoBehaviour {
     {
         float ratio = hitpoint / maxHitpoint;
         currentHealthbar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        ratioText.text = (ratio * 100).ToString("") + '%';
+        ratioText.text = (ratio * 100).ToString("f0") + '%';
 
     }
 
