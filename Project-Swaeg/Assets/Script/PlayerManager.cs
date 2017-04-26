@@ -36,7 +36,7 @@ public class PlayerManager : MonoBehaviour {
         {
             hitpoint = 0;
             Debug.Log("Dead!");
-
+            Application.Quit();
         }
 
         UpdateHealthBar();
